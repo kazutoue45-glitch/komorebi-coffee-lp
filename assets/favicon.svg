@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" rx="15" fill="#3E9B5F"/>
+  <!-- 湯気 -->
+  <g stroke="#ffffff" stroke-width="2.6" stroke-linecap="round" fill="none" opacity="0.9">
+    <path d="M26 16 q3 -3 0 -7"/>
+    <path d="M33 16 q3 -3 0 -7"/>
+  </g>
+  <!-- カップ -->
+  <path d="M17 26 h24 v9 a9 9 0 0 1 -9 9 h-6 a9 9 0 0 1 -9 -9 z" fill="#ffffff"/>
+  <!-- 取っ手 -->
+  <path d="M41 28 h3.5 a6 6 0 0 1 0 12 h-2.2" fill="none" stroke="#ffffff" stroke-width="3.4" stroke-linecap="round"/>
+  <!-- ソーサー -->
+  <rect x="15" y="47" width="28" height="3.4" rx="1.7" fill="#ffffff"/>
+</svg>
