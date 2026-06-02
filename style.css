@@ -71,7 +71,8 @@ p{margin:0;text-wrap:pretty;}
 .site-header.scrolled{background:rgba(251,247,239,.92);backdrop-filter:blur(10px);box-shadow:0 1px 0 rgba(58,51,44,.06);}
 .header-inner{max-width:1180px;margin:0 auto;padding:16px 26px;display:flex;align-items:center;justify-content:space-between;gap:16px;}
 .logo{display:flex;align-items:center;gap:8px;font-family:var(--maru);font-weight:900;font-size:20px;color:var(--green);letter-spacing:.02em;}
-.logo-mark{width:30px;height:30px;display:block;border-radius:7px;}
+.logo-mark{width:30px;height:30px;min-width:30px;display:block;border-radius:7px;flex-shrink:0;}
+.logo-text{white-space:nowrap;}
 .site-header:not(.scrolled) .logo{color:#fff;text-shadow:0 1px 12px rgba(0,0,0,.4);}
 .nav{display:none;}
 .header-cta{padding:9px 20px;font-size:13px;}
